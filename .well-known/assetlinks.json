@@ -1,1 +1,8 @@
-
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.bara_formation.twa",
+    "sha256_cert_fingerprints": ["5F:82:34:45:B4:9C:3D:9C:D8:8D:7C:AC:CA:73:A6:E5:4E:55:3A:5F:9E:45:92:B2:44:69:45:0C:65:3A:24:5A"]
+  }
+}]
