@@ -1,8 +1,13 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "io.github.bara_formation.twa",
-    "sha256_cert_fingerprints": ["5F:82:34:45:B4:9C:3D:9C:D8:8D:7C:AC:CA:73:A6:E5:4E:55:3A:5F:9E:45:92:B2:44:69:45:0C:65:3A:24:5A"]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.bara_formation.twa",
+      "sha256_cert_fingerprints": [
+        "7C:45:61:03:95:C0:45:DE:E7:90:10:B0:4C:36:59:88:A1:25:17:0B:EA:7D:FE:9C:1A:FD:18:E6:BF:7B:7D:58",
+        "5F:82:34:45:B4:9C:3D:9C:D8:8D:7C:AC:CA:73:A6:E5:4E:55:3A:5F:9E:45:92:B2:44:69:45:0C:65:3A:24:5A"
+      ]
+    }
   }
-}]
+]
