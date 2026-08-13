@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bara Formation — Préparation aux concours du Burkina Faso</title>
+<meta name="description" content="Bara Formation, Ouagadougou. Éditeur de Bara Concours, application de préparation aux concours de la fonction publique du Burkina Faso.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green: #0F5132;
+    --green-dark: #0a3a23;
+    --gold: #FCD116;
+    --red: #CE1126;
+    --cream: #FAF7F2;
+    --ink: #1a1a1a;
+    --ink-soft: #3f4a44;
+    --ink-mute: #6b7280;
+    --line: #e5e7eb;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    background: var(--cream);
+    color: var(--ink-soft);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 1.3rem; }
+
+  .hero {
+    background: linear-gradient(160deg, var(--green) 0%, var(--green-dark) 100%);
+    color: #fff;
+    padding: 3.5rem 0 3rem;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 4px solid var(--gold);
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -70px; right: -70px;
+    width: 260px; height: 260px;
+    background: radial-gradient(circle, rgba(252,209,22,.18), transparent 70%);
+    border-radius: 50%;
+  }
+  .hero .wrap { position: relative; z-index: 1; }
+  .brand {
+    font-family: 'Instrument Serif', serif;
+    font-size: clamp(2.2rem, 7vw, 3.2rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+  .brand span { color: var(--gold); font-style: italic; }
+  .tagline {
+    margin-top: .6rem;
+    font-size: 1.05rem;
+    color: rgba(255,255,255,.82);
+    max-width: 46ch;
+  }
+  .cta {
+    display: inline-block;
+    margin-top: 1.8rem;
+    background: var(--gold);
+    color: var(--green-dark);
+    padding: .85rem 1.6rem;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform .15s ease, box-shadow .15s ease;
+    box-shadow: 0 8px 22px rgba(252,209,22,.28);
+  }
+  .cta:hover { transform: translateY(-1px); box-shadow: 0 10px 26px rgba(252,209,22,.36); }
+  .cta:active { transform: translateY(1px); }
+
+  section { padding: 2.8rem 0; }
+  h2 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.7rem;
+    color: var(--green);
+    font-weight: 400;
+    margin-bottom: .9rem;
+  }
+  p { max-width: 64ch; margin-bottom: .8rem; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 1.4rem;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 1.2rem 1.3rem;
+  }
+  .card h3 {
+    font-size: 1rem;
+    color: var(--ink);
+    margin-bottom: .35rem;
+    font-weight: 700;
+  }
+  .card p { font-size: .93rem; margin: 0; color: var(--ink-mute); }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 2rem 0 3rem;
+    font-size: .92rem;
+    color: var(--ink-mute);
+  }
+  footer nav { display: flex; gap: 1.4rem; flex-wrap: wrap; margin-bottom: .9rem; }
+  footer a { color: var(--green); text-decoration: none; border-bottom: 1px solid transparent; }
+  footer a:hover { border-bottom-color: var(--green); }
+  .flag {
+    display: inline-block;
+    width: 34px; height: 4px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--red) 50%, var(--green) 50%);
+    margin-bottom: .8rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">Bara <span>Formation</span></div>
+    <p class="tagline">Préparation aux concours de la fonction publique du Burkina Faso, conçue à Ouagadougou pour les candidats burkinabè.</p>
+    <a class="cta" href="https://bara-formation.github.io/bara-concours/">Ouvrir Bara Concours</a>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>L'application Bara Concours</h2>
+    <p>Bara Concours réunit une banque de questions à choix multiples, des corrigés détaillés et un suivi de progression, pour réviser efficacement — y compris hors connexion, avec les contenus déjà chargés sur l'appareil.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Des milliers de QCM</h3>
+        <p>Répartis sur plus de trente matières, des mathématiques au droit administratif.</p>
+      </div>
+      <div class="card">
+        <h3>Corrections expliquées</h3>
+        <p>Chaque réponse est justifiée, et l'on comprend pourquoi les autres propositions sont fausses.</p>
+      </div>
+      <div class="card">
+        <h3>Accompagnement Final</h3>
+        <p>Pendant la période des épreuves, les questions réellement tombées sont recensées et corrigées.</p>
+      </div>
+      <div class="card">
+        <h3>Examen hebdomadaire</h3>
+        <p>Chaque dimanche soir, un examen blanc commun avec classement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="flag"></span>
+    <nav>
+      <a href="https://bara-formation.github.io/bara-concours/">Application</a>
+      <a href="https://bara-formation.github.io/bara-concours/privacy-policy.html">Politique de confidentialité</a>
+      <a href="https://bara-formation.github.io/bara-concours/suppression-compte.html">Supprimer mon compte</a>
+      <a href="mailto:bara.formation@gmail.com">Nous écrire</a>
+    </nav>
+    <div>Bara Formation — Ouagadougou, Burkina Faso — bara.formation@gmail.com</div>
+  </div>
+</footer>
+
+</body>
+</html>
